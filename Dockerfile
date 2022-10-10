@@ -8,4 +8,4 @@ RUN npm install package.json
 
 COPY . /app
 
-CMD ["server", "server.js"]
+CMD ["npm", "start"]
