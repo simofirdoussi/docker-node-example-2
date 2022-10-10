@@ -15,7 +15,7 @@ docker run -d -p 3000:80 -v feedback:/app/feedback -v /app/node_modules -v $(pwd
 
 **Notes:**
 
-- Adding the -v flags ensures the binding of the volumes.
+- Adding the -v flags ensures the binding of the necessary volumes.
 - In this case for example, we do have three different volumes conbined, one anonymous - which is the /app/node_modules.
 - The reason for adding those is to ensure the binding of the volumes an update the code without having to rebuild the image each time.
 
